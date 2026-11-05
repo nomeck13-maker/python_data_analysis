@@ -1,6 +1,7 @@
-Delivery Performance & Returns Analysis
+**Delivery Performance & Returns Analysis**
 
-Project Overview
+
+**Project Overview**
 
 Business Question: How well are we delivering, and what causes returns?
 
@@ -8,7 +9,8 @@ This project uses Python to analyze delivery performance and customer returns us
 
 Technologies Used: Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, Seaborn, Streamlit, and Plotly.
 
-Submission Files
+
+**Submission Files**
 
 The project includes the following required deliverables:
 
@@ -26,13 +28,15 @@ charts/ – Six exported PNG visualizations.
 
 Additional files include the Python analysis script, cleaned transaction datasets, interactive dashboard, and analyst report.
 
-Data Analysis & Methodology
+
+**Data Analysis & Methodology**
 
 The analysis uses seven CSV files: Customers, Products, Orders, Order Items, Payments, Shipments, and Returns.
 
 Data cleaning includes standardizing product categories, removing exact duplicates and repeated primary keys, handling missing values, parsing mixed date formats, converting currency strings to numeric values, and validating relationships between datasets.
 
-Key Metrics
+
+**Key Metrics**
 
 Delivery Lead Time: Delivered Date minus Ship Date, measured in days.
 
@@ -46,7 +50,8 @@ Category Return Rate: Unique returned orders containing a category divided by to
 
 Only delivered shipments with valid dates are included in lead-time calculations. Invalid quantities and unmatched product records are excluded from relevant category calculations.
 
-Six Data Visualizations
+
+**Six Data Visualizations**
 
 Delivery Lead Time Distribution – Distribution of completed delivery durations.
 
@@ -62,33 +67,35 @@ Return Rate by Courier – Percentage of orders with returns by courier.
 
 All six charts are exported as PNG images.
 
-Executive Summary
 
-The analysis covers 15,000 unique orders and 15,000 shipments.
+**Executive Summary**
 
-77.87% of shipments are marked Delivered.
+The analysis covers **15,000** unique orders and 15,000 shipments.
 
-17.96% are marked In Transit.
+**77.87%** of shipments are marked Delivered.
 
-1.07% are marked Lost.
+**17.96%** are marked In Transit.
 
-3.10% are marked Returned to Sender.
+**1.07%** are marked Lost.
 
-Average completed delivery lead time is 4.00 days.
+**3.10%** are marked Returned to Sender.
 
-Overall order return rate is 8.00%.
+Average completed delivery lead time is **4.00** days.
 
-Changed mind is the leading recorded return reason, with 182 cases.
+Overall order return rate is **8.00%**.
 
-Home & Kitchen has the highest category-associated return rate at 8.65%.
+Changed mind is the leading recorded return reason, with **182 cases**.
 
-J&T has the lowest observed delivery completion percentage at 76.59%.
+**Home & Kitchen** has the highest category-associated return rate at **8.65%**.
 
-Recommendation 1: Investigate courier delivery exceptions and operational bottlenecks.
+**J&T** has the lowest observed delivery completion percentage at **76.59%**.
 
-Recommendation 2: Improve product information and investigate the underlying reasons for returns.
+**Recommendation 1**: Investigate courier delivery exceptions and operational bottlenecks.
 
-Running the Project
+**Recommendation 2**: Improve product information and investigate the underlying reasons for returns.
+
+
+**Running the Project**
 
 Project directory: C:\Users\Ronn\DataGripProjects
 
@@ -108,7 +115,8 @@ Review the generated results in the outputs and charts folders.
 
 Save the notebook with its executed outputs.
 
-Interactive Dashboard
+
+**Interactive Dashboard**
 
 To run the Streamlit dashboard, open PowerShell and execute:
 
